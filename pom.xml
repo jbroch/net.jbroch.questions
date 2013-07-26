@@ -8,9 +8,11 @@
     <name>Maven Project for Interview Questions</name>
     <description>Maven project setup for eclipse with checkstyle and findbugs.</description>
     <url>https://github.com/jbroch/net.jbroch.questions</url>
+<!--
     <scm>
         <developerConnection>https://github.com/jbroch/net.jbroch.questions.git</developerConnection>
     </scm>
+-->
     <developers>
         <developer>
             <id>jbroch</id>
@@ -667,6 +669,9 @@
         
         <profile>
             <id>cobertura</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
