@@ -6,5 +6,5 @@
 /**
  * A stack implementation.
  */
-package net.jbroch.project2;
+package net.jbroch.project.threading;
 

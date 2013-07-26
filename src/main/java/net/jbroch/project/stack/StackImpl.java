@@ -2,12 +2,12 @@
  * Copyright 2013 Josh Broch
  * All rights reserved.
  */
-package net.jbroch.project1;
+package net.jbroch.project.stack;
 
 /**
  * Implementation of {@link Stack}.
  */
-public class StackImpl implements Stack {
+class StackImpl implements Stack {
 
     public StackImpl() {
     }
@@ -15,7 +15,7 @@ public class StackImpl implements Stack {
     /**
      * {@inheritDoc}
      * 
-     * @see net.jbroch.project1.Stack#push(java.lang.Integer)
+     * @see net.jbroch.project.stack.Stack#push(java.lang.Integer)
      */
     @Override
     public void push(final Integer value) {
@@ -25,7 +25,7 @@ public class StackImpl implements Stack {
     /**
      * {@inheritDoc}
      * 
-     * @see net.jbroch.project1.Stack#pop()
+     * @see net.jbroch.project.stack.Stack#pop()
      */
     @Override
     public final Integer pop() {
@@ -36,7 +36,7 @@ public class StackImpl implements Stack {
     /**
      * {@inheritDoc}
      * 
-     * @see net.jbroch.project1.Stack#peek()
+     * @see net.jbroch.project.stack.Stack#peek()
      */
     @Override
     public final Integer peek() {

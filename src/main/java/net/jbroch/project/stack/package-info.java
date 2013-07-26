@@ -6,5 +6,5 @@
 /**
  * A stack implementation.
  */
-package net.jbroch.project1;
+package net.jbroch.project.stack;
 

@@ -3,3 +3,5 @@ target/
 .classpath
 .project
 .checkstyle
+test-output/
+catalina.base_IS_UNDEFINED/
