@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Build hook to require a JIRA ID or Rally indicator (story, task, defect) somewhere in the checkin message.
+#
+test "" != "$(grep '\(US\|TA\|DE\)[0-9]\+\|\(PS\|AW\)\-[0-9]\+' "$1")" || {
+    echo >&2 "ERROR: Commit message is missing JIRA issue (AW-123, PS-123) or Rally (US123, TA123, DE123) indicator."
+    exit 1
+}

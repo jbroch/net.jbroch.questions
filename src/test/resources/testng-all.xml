@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="2">
+    <test name="AllTests">
+        <groups>
+            <run>
+                <!-- No excludes -->
+            </run>
+        </groups>
+        <packages>
+            <package name="net.jbroch.*"/>
+        </packages>
+    </test>
+</suite>

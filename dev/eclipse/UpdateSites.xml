@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+   <site url="http://andrei.gmxhome.de/eclipse/" selected="true" name="AnyEdit Tools"/>
+   <site url="http://eclipse-cs.sf.net/update/" selected="true" name="Checkstyle"/>
+   <site url="http://bimargulies.github.com/m2e-code-quality/site/1.0/" selected="true" name="Checkstyle m2e Connector"/>
+   <site url="http://findbugs.cs.umd.edu/eclipse" selected="true" name="Findbugs"/>
+   <site url="http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/" selected="true" name="m2e-wtp"/>
+   <site url="http://www.objectaid.com/update/" selected="true" name="ObjectAid"/>
+   <site url="http://protobuf-dt.googlecode.com/git/update-site" selected="true" name="Protocol Buffer Editor"/>
+   <site url="http://www.bastian-bergerhoff.com/eclipse/features" selected="true" name="QuickREx"/>
+   <site url="http://beust.com/eclipse" selected="true" name="TestNG"/>
+   <site url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases" selected="true" name="xtext"/>
+</bookmarks>
